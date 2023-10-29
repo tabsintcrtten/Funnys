@@ -7,3 +7,9 @@ h1,footer{
     border: 7px solid #0f0;
     border-radius: 3px;
 }
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: gray;
+    z-index: 1;
+}
