@@ -11,7 +11,7 @@ h1,footer{
 }*/
 footer{
     position: fixed;
-    bottom: 0px;
+    bottom: -25px;
     background-color: gray;
     z-index: 1;
     width: 100%;
