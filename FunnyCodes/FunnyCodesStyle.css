@@ -12,4 +12,5 @@ footer{
     bottom: 0px;
     background-color: gray;
     z-index: 1;
+    width: 100%;
 }
