@@ -9,5 +9,14 @@ window.onload = function(){
         alert('String.fromCharCode() can not use!');
         window.close();
     }
-    alert('Starting...')
+    alert('Starting...');
+    setInterval(function(){
+        var CodeSpan = document.createElement('span');
+        CodeSpan.className = 'code';
+        CodeSpan.innerHTML = String.fromCharCode(code);
+        CodeSpan.title = 'CharCode:' + code;
+        CodeSection.appendChild(CodeSpan);
+        delete CodeSpan;
+        code += 1;
+    },0);
 }
