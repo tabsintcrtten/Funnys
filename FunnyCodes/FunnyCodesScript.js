@@ -19,4 +19,15 @@ window.onload = function(){
         delete CodeSpan;
         code += 1;
     },0);
+    window.onunload = function(){
+        var boolvalue = window.confirm('Quit?');
+        if(boolvalue){
+            window.close();
+        }else{
+            delete boolvalue;
+        }
+    }
+    location.reload = function(){
+        false;
+    }
 }
