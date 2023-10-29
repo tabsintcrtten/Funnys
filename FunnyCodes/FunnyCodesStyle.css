@@ -1,0 +1,9 @@
+h1,footer{
+    text-align: center;
+    color: #0f0;
+    margin: 10px 0px;
+}
+.code{
+    border: 7px solid #0f0;
+    border-radius: 3px;
+}
